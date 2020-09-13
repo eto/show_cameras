@@ -1,10 +1,18 @@
-#!/usr/bin/ruby
-# coding: utf-8
-# <bitbar.title>Show Cameras Connected</bitbar.title>
+#!/usr/bin/env ruby
+# encoding: utf-8
+
+# <bitbar.title>Show Connected Cameras</bitbar.title>
+# <bitbar.version>1.0</bitbar.version>
 # <bitbar.author>Koichiro Eto</bitbar.author>
 # <bitbar.author.github>eto</bitbar.author.github>
 # <bitbar.desc>Displays the number of cameras connected.</bitbar.desc>
-# <bitbar.version>1.0</bitbar.version>
+
+# <bitbar.image>https://www.dropbox.com/s/cgkjb7hv6s1yx1a/Screenshot%202017-02-08%2020.40.02.png?raw=1</bitbar.image>
+# <bitbar.image>https://raw.github.com/romankrasavtsev/moex-bitbar-plugin/master/moex_emoji.png</bitbar.image>
+
+# <bitbar.dependencies>ruby</bitbar.dependencies>
+
+# <bitbar.abouturl>https://github.com/eto/show_cameras</bitbar.abouturl>
 
 # % system_profiler SPCameraDataType
 # Camera:
